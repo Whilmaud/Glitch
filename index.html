@@ -1,0 +1,32 @@
+<!Doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>TD1 form</title>
+  </head>
+  <body>
+    <h1>
+      TD1 form
+    </h1>
+    
+    <form id="GTgoogle" method="GET" action = "https://www.google.fr/search">
+      <input type="text" name="q" placeholder="Ici pour chercher des chat :" pattern=".*chat.*|.*Chat.*" required><br>
+      <!--input type="Hidden" name="q" value="site:w3schools.com"-->
+      <input type="checkbox" name="q" value="Mignon">Mignon
+      <input type="checkbox" name="q" value="Joli">Joli
+      <input type="checkbox" name="q" value="Petit">Petit<br>
+      <input type="radio" name="q" value="Blanc">Blanc<br>
+      <input type="radio" name="q" value="Rayé">Rayé<br>
+      <select name="q">
+        <option value="">None</option>
+        <option value="Un">Un</option>
+        <option value="Deux">Deux</option>
+        <option value="Beaucoup">Beaucoup</option>
+        <option value="Groupe">Groupe</option>
+        <option value="Troupeau">Troupeau</option>
+      </select><br>
+      <input type="submit" name="Chercher" value="Cherche">
+    </form>
+  </body>
+</html>
